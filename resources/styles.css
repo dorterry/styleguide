@@ -58,13 +58,44 @@ body {
 
 .font-panel {
     display: inline-block;
-    width: 32%;
+    width: 45%;
     text-align: center;
     margin: 20px auto;
     min-height: 100px;
   }
 
+  .font-label {
+    font-size: 20px;
+    text-decoration: underline;
+  }
+  
+  .regular {
+    font-style: normal;
+  }
+  
+  .italic {
+    font-style: italic;
+  }
+  
+  .bold {
+    font-weight: 700;
+  }
+  
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
 
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.lora {
+    font-family: 'Lora', serif;
+}
 
 /* Text Styles */
 
