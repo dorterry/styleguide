@@ -1,6 +1,6 @@
 /* Universal Styles */
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: white;
     font-size: 14px;
     margin: 0 10%;
@@ -80,7 +80,7 @@ body {
   .bold {
     font-weight: 700;
   }
-  
+
 .montserrat {
     font-family: 'Montserrat', sans-serif;
 }
@@ -98,6 +98,29 @@ body {
 }
 
 /* Text Styles */
+
+.text-container {
+    width: 100%;
+  }
+
+.text-panel h1 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'montserrat', sans-serif;
+  }
+  
+  .text-panel h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'open-sans', sans-serif;
+  }
+  
+  .text-panel p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'roboto', sans-serif;
+  }
+
 
 /* Footer */
 
